@@ -4,6 +4,8 @@ const cors = require('cors')
 
 const app = express();
 const port = 5000;
+//ejecutar conexion con  base de datos 
+require("./conectarcondb")
 app.use(cors())
 
 //RUTAS
